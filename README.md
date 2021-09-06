@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Crypto Price Trakcer App
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/mdarifuzzaman11/nextjs-crypto-price-tracker-app?style=for-the-badge) 
+![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/mdarifuzzaman11/nextjs-crypto-price-tracker-app?style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/mdarifuzzaman11?style=for-the-badge)
+
+## Description
+
+This Project is to help me Learn how to build a simple Bitcoin cryptocurrency finance price tracker app using React and Next JS. I will use a crypto API to get the data. I am going to be using Coin Gecko for the API. 
 
 ## Getting Started
 
-First, run the development server:
+### Dependencies
+
+* On Terminal run the following code
+```
+npx create-next-app nextjs-crypto-price-tracker-app
+```
+* NOTE: Rename crypto-price-tracker-app with what you like!
+
+* Installing dependencies:
+- react
+- react-dom
+- next
+
+
+## Installation
+
+Clone the repository to a usb stick that you wish to use to inject the software in the host computer.
 
 ```bash
+git clone https://github.com/mdarifuzzaman11/ADDYOURREPO
+```
+
+## After Cloning Run the following code in Terminal of the project
+
+* How to run the program
+* Step-by-step bullets
+
+```
 npm run dev
-# or
+```
+OR
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Get the API?
+LINK: https://www.coingecko.com/en/api
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Once you are on this page, just click get started and it will scroll down to the different options. I used the "/coins/markets" one and the "/coins/id" for the separate coin page.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Work Environmnet
+* VS Code
+* VS extension "ES7 React/Redux/GraphQL/React-Native snippets " 
+* Google Chrome 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Help
 
-## Learn More
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Authors
+MD Arifuzzaman 
+<br />
+[@_mdarifuzzaman](https://instagram.com/_mdarifuzzaman)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Version History
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* 0.0.1
+    * Initial Release
 
-## Deploy on Vercel
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the LICENSE.md file for details
